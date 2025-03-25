@@ -1,0 +1,46 @@
+h1{
+    color: black;
+}
+.parrafo{
+    border: 10px solid yellow;
+    border-top-color: brown;
+    border-left-color: green;
+    border-right-color: purple ;
+    border-radius: 5px ;
+    box-shadow: 4px 4px 8px red;
+    color: orange;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 70px;
+    border: 5px solid palevioletred ;
+}
+.parrafo2{
+    color: rgb(0,0,0);
+    color: rgba(200, 100, 40, 0.5);
+    /* colores hexadecimales */
+}
+.parrafo3{
+    color: hsl(200,100%,50%);
+    color: hsla(60, 100%, 50%, 100%); /* Transparecia */
+}
+.Imagen{
+    background-image: url(imagenes/golden-retriever-tongue-out.jpg);
+    width: 600px ;
+    height: 500px ;
+    background-size: cover;
+    background-position: center ;
+    border: 6px solid black; 
+}
+/* body{
+    background-color: paleturquoise;
+    background: linear-gradient(yellow, pink, blue);
+    height: 1000vh
+}   */
+.parrafo4{
+    width: 600px;
+    height: 200px;
+    background: linear-gradient(red, blue, green);
+}
